@@ -60,7 +60,7 @@ h3 {
     margin-left: 5px;
 }
 
-.heart:hover {
+.heart:hover, .heart:active, .heart.clicked {
     mix-blend-mode: multiply;
     filter: invert(43%) sepia(93%) saturate(3982%) hue-rotate(-6deg) brightness(102%) contrast(101%);
 }

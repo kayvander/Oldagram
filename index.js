@@ -37,3 +37,9 @@ heartBtn.addEventListener("click", function() {
     likesDisplay.textContent = likes.toLocaleString() + " likes"
 })
 
+const button = document.getElementById("myButton");
+
+heartBtn.addEventListener("click", () => {
+  heartBtn.classList.add("clicked");
+});
+
